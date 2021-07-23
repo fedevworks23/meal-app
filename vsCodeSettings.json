@@ -1,0 +1,126 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "bashTerminal": {
+      "path": "C:\\Users\\sshivamp\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+      "args": ["--login"]
+    }
+  },
+  "editor.fontSize": 12,
+  "workbench.editor.enablePreview": true,
+  "eslint.validate": ["vue", "html", "javascript"],
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.explorerKind": "external",
+  // OldSetting
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.automationShell.linux": "",
+  "terminal.integrated.localEchoLatencyThreshold": 0,
+  "terminal.integrated.localEchoStyle": "dim",
+  "terminal.integrated.env.osx": {},
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  // Controls if quick suggestions should show up while typing
+  "editor.quickSuggestions": true,
+
+  // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
+  "editor.acceptSuggestionOnEnter": "on",
+
+  // Controls the delay in ms after which quick suggestions will show up.
+  "editor.quickSuggestionsDelay": 10,
+
+  // Enable word based suggestions
+  "editor.wordBasedSuggestions": true,
+
+  // Enable parameter hints
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "diffEditor.codeLens": true,
+  "editor.suggestLineHeight": 0,
+  "editor.letterSpacing": 0,
+  "debug.console.fontSize": 12,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#131212",
+    "titleBar.border": "#7e7e7e",
+    "sideBar.background": "#131212",
+    "sideBar.border": "#7e7e7e",
+    "activityBar.background": "#131212",
+    "activityBar.border": "#7e7e7e",
+    "activityBar.activeBackground": "#131212",
+    "activityBar.foreground": "#dddad6",
+    "editor.background": "#131212",
+    "editor.foreground": "#dddad6",
+    "terminal.background": "#131212",
+    "terminal.foreground": "#dddad6",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#237e02",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiBlue": "#00a1f9",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.colorTheme": "Monokai",
+  "window.zoomLevel": -1,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
